@@ -63,6 +63,44 @@ const TodoList = (props: TodoListPropsType) => {
     const removeTodoList = () => {
         props.removeTodoList(props.todoListId)
     }
+
+    // let a = 1
+    // while (a <= 11) {
+    //     console.log(a);
+    //     {
+    //         a++;
+    //     }
+    // }
+
+    // for (let i = 1; i <= 5; i++)
+    //     console.log(i)
+
+    // let num = 8
+    // while (num) {
+    //     console.log(num)
+    //     num--
+    // }
+
+    // let num = 0
+    // while (num < 3) {
+    //     console.log(`число ${num}`)
+    //     num++
+    // }
+    // for (let i = 0; i < 10; i++) {
+    //     alert(i)
+    // }
+
+    // const rep = (a: string, b: number, c: string) => {
+    //     for (let i = 0; i < b; i++) {
+    //         let res = (a + c)
+    //
+    //
+    //     }
+    // }
+    // (rep('yo', 3, '1'))
+
+
+
     return (
         <div>
             <h3>{props.title}
